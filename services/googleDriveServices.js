@@ -26,7 +26,7 @@ export const registerDriveWebhook = async () => {
       requestBody: {
         id: "arkive-drive-webhook-12345", // must be unique every time you register
         type: "web_hook",
-        address: process.env.GDRIVE_WEBHOOK_URL // your webhook endpoint
+        address: process.env.WEBHOOK_URL // your webhook endpoint
       }
     });
 
